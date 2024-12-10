@@ -13,6 +13,15 @@ export default {
       BrandGreen: "#2dcc6f",
       BrandBlue: "#1376f4",
       BrandWhite: "#eeeeee",
+      },
+      container:{
+        center:true, 
+        padding:{
+          DEFAULT: "1rem", 
+          sm: "3rem",  
+          
+      
+        }
       }
     },
   },
