@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { IoMdSearch } from 'react-icons/io'; // Ensure this is installed: npm install react-icons
 
