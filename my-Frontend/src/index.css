@@ -11,4 +11,8 @@
         dark:bg-gray-900 group-hover:dark:bg-gray-800;
     }
   }
-  
+  @layer utilities {
+    .hero-bg-color{
+      @apply bg-gradient-to-tr from-gray-300/80 to-gray-100 
+    }
+  }
