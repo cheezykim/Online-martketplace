@@ -2,6 +2,7 @@
 import React from 'react';
 import { IoMdSearch } from 'react-icons/io'; // Ensure this is installed: npm install react-icons
 import { FaCaretDown } from "react-icons/fa";
+import DarkMod from './DarkMod';
 const MenuLinks = [
   {
     id: 1,
@@ -110,7 +111,9 @@ const Navbar = () => {
 
               {/* Dark Mode Toggle Placeholder */}
               <div>
+                
                 {/* Add your dark mode toggle button here */}
+                <DarkMod/>
               </div>
             </div>
           </div>
