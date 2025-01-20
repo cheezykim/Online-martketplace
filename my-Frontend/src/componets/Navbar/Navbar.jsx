@@ -56,7 +56,7 @@ const Navbar = () => {
               href="#"
               className='text-Primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'
             >
-              Marketplace
+              TPK Store
             </a>
 
             {/* Menu Items */}
@@ -75,7 +75,7 @@ const Navbar = () => {
                  {/*Dropdown*/}
                  <li className="relative cursor-pointer group">
                   <a href='#' className="flex items-center gap-[2px] font-semibold text-gray-500 dark:hover:text-white py-2">
-                    QuickLinks
+                    Products list
                     <span>
                   <FaCaretDown className="group-hover:rotate-180 duration-300"/>
                   </span>
