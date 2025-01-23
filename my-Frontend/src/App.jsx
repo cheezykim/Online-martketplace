@@ -1,4 +1,5 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable react-hooks/rules-of-hooks */
+ 
 import React from 'react'
 import Navbar from './componets/Navbar/Navbar'
 import Hero from './componets/Hero/Hero';
@@ -10,6 +11,7 @@ import Banner from './componets/Banner/Banner'
 import headphone from './assets/hero/headphone.png'
 import Products from './componets/Products/Products'
 import Blogs from './componets/Blogs/Blogs';
+import Footer from './componets/Footer/Footer';
 
 const BannerData = {  
   discount: "30% OFF",
@@ -32,7 +34,8 @@ const App = () => {
       <Services />
       <Banner data={BannerData} />
       <Products/> 
-      <Blogs/>
+      <Blogs />
+      <Footer />
     </div>
   )
 }

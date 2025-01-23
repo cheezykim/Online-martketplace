@@ -1,10 +1,14 @@
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
+ 
 const Banner = ({ data }) => {
     return (
         <div className='min-h-[550px] flex justify-center items-center py-12'>
             <div className='container'>
                 <div
+                     
                     style={{ backgroundColor: data.bgcolor }}
                     className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl'>
                     {/* First Column */}
